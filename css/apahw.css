@@ -1,0 +1,117 @@
+html, body, main {
+  overflow-y: scroll;
+}
+@font-face {
+    font-family: apahwKIONA;
+    src: url('../font/Kiona-Regular.ttf');
+}
+
+html {
+  font-size: 20px;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   width: 100%;
+   overflow-x: scroll;
+   overflow-y: scroll;
+   font-family: 'Oxygen', sans-serif;
+}
+body {
+  overflow-y: scroll;
+  /* margin: 0; */
+  height: 100%;
+}
+main {
+  /* height: 100vh; */
+}
+section {
+  padding: 5% 7.5%;
+  /* height: 100vh; */
+}
+h1, h2, h3 {
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'apahwKIONA', sans-serif;
+  text-align: center;
+}
+h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+h6 {
+  font-family: 'apahwKIONA', sans-serif;
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+hr {
+  margin: 2rem;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.colorbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 7.5px;
+  background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%);
+  z-index: 5;
+}
+.navbar {
+  padding: 0 1rem;
+}
+.photospacer {
+  width: 100vw;
+  height: 250px;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.filler {
+  height: 100%;
+  width: 100%;
+  background-color: #ce8d7a;
+  opacity: .15;
+}
+#header {
+  height: 50px;
+  padding-top: 11.5px;
+  padding-bottom: 35px;
+  /* background-image: url('./../img/ApahwCover.png'); */
+  background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%);
+  background-size: cover;
+}
+section#board {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.solidbar {
+  background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%);
+  height: 2px;
+}
+footer {
+  padding: 1rem 2.5% 0 7.5%;
+  background-color: rgba(200, 200, 200, .25);
+}
+footer p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
