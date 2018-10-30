@@ -74,6 +74,7 @@
   bottom: calc(50% + 5px);
   padding-top: 50%;
   font-size: 1rem;
+  font-weight: bold;
   z-index: 1;
   -webkit-transform:translateY(-100%) translatez(-1px);
       -ms-transform:translateY(-100%) translatez(-1px);
@@ -99,13 +100,16 @@
 }
 /*** COMMITTEE COLORS  **********************************************************************/
 .hex.finance h7, .hex.finance h8 {
-  background-color: rgba(168, 75, 75, 0.7);
+  /* background-color: rgba(168, 75, 75, 0.7); */
+  background-color: rgba(206, 141, 122, 0.7);
 }
 .hex.programming h7, .hex.programming h8 {
-  background-color: rgba(131, 91, 151, 0.7);
+  /* background-color: rgba(131, 91, 151, 0.7); */
+  background-color: rgba(244, 247, 175, 0.6);
 }
 .hex.marketing h7, .hex.marketing h8 {
-  background-color: rgba(124, 138, 195, 0.7);
+  /* background-color: rgba(124, 138, 195, 0.7); */
+  background-color: rgba(220, 175, 82, 0.7);
 }
 /*** HOVER EFFECT  **********************************************************************/
 .hexIn:hover h7, .hexIn:focus h7,

@@ -5,7 +5,6 @@ html, body, main {
     font-family: apahwKIONA;
     src: url('../font/Kiona-Regular.ttf');
 }
-
 html {
   font-size: 20px;
   -moz-osx-font-smoothing: grayscale;
@@ -28,7 +27,6 @@ section {
   /* height: 100vh; */
 }
 h1, h2, h3 {
-  font-family: 'Oxygen', sans-serif;
   font-family: 'apahwKIONA', sans-serif;
   text-align: center;
 }
@@ -41,7 +39,7 @@ h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-h6 {
+h6, .card-title {
   font-family: 'apahwKIONA', sans-serif;
   margin: 0;
   color: white;
@@ -55,6 +53,15 @@ p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
+}
+a {
+  color: #ce8d7a;
+}
+a:hover {
+  color: #f0cbbb;
+}
+a:visited, a:active {
+  color: #dcaf52;
 }
 hr {
   margin: 2rem;
@@ -73,7 +80,32 @@ hr {
   z-index: 5;
 }
 .navbar {
-  padding: 0 1rem;
+  padding: 0 7.5%;
+  margin-top: .25rem;
+  border-bottom: 1px solid rgba(206, 141, 122, 0.2)
+}
+.navbar-brand {
+  font-family: 'apahwKIONA', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: #ce8d7a;
+}
+.nav-link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.navbar-toggler {
+  padding: .25rem;
+  font-size: 14px;
+  border: none;
+}
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
 .photospacer {
   width: 100vw;
@@ -89,29 +121,76 @@ hr {
   opacity: .15;
 }
 #header {
-  height: 50px;
-  padding-top: 11.5px;
-  padding-bottom: 35px;
-  /* background-image: url('./../img/ApahwCover.png'); */
+  height: 250px;
+  transition: .25s ease;
+  margin-top: 1rem;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  background-image: url('./../img/apahw2018cover.jpg');
+  /* background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.solidbar {
   background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%);
-  background-size: cover;
+  height: 2px;
+}
+#event-calendar {
+  margin: 0;
+}
+.card {
+  margin-bottom: 1.5rem;
+}
+.card-title {
+  color: black;
+  margin-bottom: .75rem;
+}
+.card-text, .card-footer {
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-content {
+  padding: .75rem 1rem;
+}
+@media (min-width: 992px) {
+  #header {
+    height: 350px;
+    transition: .25s ease;
+  }
+}
+/* @media (max-width: 768px) {
+  .card-columns {
+    padding: 0 3rem;
+    column-count: 1;
+  }
+}
+@media (min-width: 768px) {
+  .card-columns {
+    padding: 0 .5rem;
+    column-count: 2;
+  }
+}
+@media (min-width: 1200px) {
+  .card-columns {
+    column-count: 3;
+  }
+} */
+.card-footer {
+  margin-bottom: 0;
 }
 section#board {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
 
-.solidbar {
-  background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%);
-  height: 2px;
-}
 footer {
   padding: 1rem 2.5% 0 7.5%;
-  background-color: rgba(200, 200, 200, .25);
+  background-color: rgba(223, 223, 223, .15);
 }
 footer p {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 18px;
   margin-bottom: 0;
   padding-bottom: 1rem;
 }

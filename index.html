@@ -23,27 +23,54 @@
   </head>
 
   <body>
-    <!-- decorative theme color bar -->
-
     <!-- main website content -->
     <main>
-
+      <!-- decorative theme color bar -->
       <div class="colorbar"></div>
+
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">APAHW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About APAHW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events-schedule">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#board">Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">APAHW Thoughts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Archives</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <!-- header image and apahw text -->
       <section id="header">
         <div class="container-fluid">
           <!-- <h1>APAHW 2018</h1> -->
-          <h6>Theme Reveal: 10.29.18</h6>
         </div>
       </section>
 
-      <!-- navbar -->
-      <nav class="navbar">
-
-      </nav>
-
       <!-- about apahw -->
-      <section id="about">
+      <section id="about" style="padding-bottom: 0;">
         <div class="container-fluid">
           <h2>Asian Pacific American Heritage Week</h2>
           <p>
@@ -51,17 +78,78 @@
             Every year, we bring together speakers, faculty, student leaders, and hundreds of attendees across a week of events ranging from our Extravaganza kickoff to dinner with
             Penn Asian American Studies department faculty and Big Asian, our annual charity talent show featuring students from our vibrant APIA community.
             <br /><br />
-            This year, APAHW will have one event on November 2nd, and the remaining events will be in the week of November 12-17th.
+            This year, APAHW will have one event on November 2nd, and the remaining events will be in the week of November 12-17th. Find out more on our <a href="https://www.facebook.com/events/741671329510621/" target = "_blank">Facebook page here!</a>
           </p>
-          <!-- <hr> -->
-          <!-- <h2>2018</h2> -->
+        </div>
+      </section>
+
+      <!-- apahw 2018 -->
+      <section id="apahw2018">
+        <div class="container-fluid" >
+          <h2 class="mb-5">APAHW 2018: DIMENSIONS</h2>
+          <div class="row" id="event-calendar">
+            <!-- first-year event -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card">
+                <img class="card-img" src="./img/events-18/freshman-event.jpg" alt="APAHW First-Year Event">
+                <div class="card-content">
+                  <h5 class="card-title">Fresh off to Penn:<br />A First-Year Event</h5>
+                  <p class="card-text">“Fresh Off to Penn” will touch on everything you can experience at Penn—from success and failure to Penn face and expectations vs. reality in college. You will hear from upperclassmen experiences, ask questions, and learn more about people’s lived experiences at Penn - and write a letter to your future self!</p>
+                </div>
+                <p class="card-footer">Rodin Rooftop Lounge&nbsp;•&nbsp;11/2/18&nbsp;•&nbsp;3-5 PM</p>
+              </div>
+            </div>
+            <!-- extravaganza -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card">
+                <img class="card-img" src="./img/events-18/extravaganza.jpg" alt="APAHW Extravaganza">
+                <div class="card-content">
+                  <h5 class="card-title">Extravaganza</h5>
+                  <p class="card-text">Come celebrate an APAHW classic with Extravaganza and numerous student cultural groups, performing groups, and plenty of food! Performers: Pan-Asian Dance Troupe, PennYo A Cappella, K-Beats, Atma, NAACH, Penn Sori, Dhamaka, Penn Lions, Penn Dure, Thillana, Masala</p>
+                </div>
+                <p class="card-footer">Bodek Lounge, Houston Hall&nbsp;•&nbsp;11/12/18&nbsp;•&nbsp;7-9 PM</p>
+              </div>
+            </div>
+            <!-- masterchef workshop -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card">
+                <img class="card-img" src="./img/events-18/masterchef.jpg" alt="APAHW Extravaganza">
+                <div class="card-content">
+                  <h5 class="card-title">"MasterChef" APAHW!</h5>
+                  <p class="card-text">The masterchef event focuses on trying to get members of the API community more immersed into API food culture. We want to showcase the food in underrepresented API communities such as Pakistani and Indonesian food especially since East Asian foods tend to be more familiar with people.</p>
+                </div>
+                <p class="card-footer">Golkin Room, Houston Hall&nbsp;•&nbsp;11/15/18&nbsp;•&nbsp;6-8 PM</p>
+              </div>
+            </div>
+            <!-- media workshop -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card">
+                <img class="card-img" src="./img/events-18/media.jpg" alt="APAHW Extravaganza">
+                <div class="card-content">
+                  <h5 class="card-title">RepresentASIAN</h5>
+                  <p class="card-text">We will touch on the rise of Asian led films and TV shows like Crazy Rich Asians, work from William Yu, and content from Buzzfeed. Recreate famous magazine covers, movie posters - your photos will be edited to look like the published photographs and be a memento of your participation in this event!</p>
+                </div>
+                <p class="card-footer">PAACH&nbsp;•&nbsp;11/16/18&nbsp;•&nbsp;6-8 PM</p>
+              </div>
+            </div>
+            <!-- big asian -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card">
+                <img class="card-img" src="./img/events-18/bigasian.jpg" alt="APAHW Big Asian">
+                <div class="card-content">
+                  <h5 class="card-title">Big Asian</h5>
+                  <p class="card-text">Big Asian is our signature closing event, and we've added a new twist to highlight non-performing art as well this year! Come see our artists, singers, and dancers, eat dinner and desserts, and bid on contestants - all in an effort where proceeds go towards charity for the Indonesian earthquake.</p>
+                </div>
+                <p class="card-footer">ARCH 208&nbsp;•&nbsp;11/17/18&nbsp;•&nbsp;7-9 PM</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <div class="photospacer" style="background-image: url('img/bg.jpg')">
         <div class="filler"></div>
       </div>
-
       <!-- photos -->
       <!-- <section id="photos">
         <div class="container-fluid">
@@ -83,14 +171,14 @@
             </li>
             <li class="hex">
               <a class="hexIn" href="#">
-                <img src="img/board/zahraa.jpg" alt="" />
+                <img src="img/board-18/zahraa.jpg" alt="" />
                 <h7>Zahraa Mohammed</h7>
                 <h8>Programming Chair</h8>
               </a>
             </li>
             <li class="hex">
               <a class="hexIn" href="#">
-                <img src="img/board-18/armi.png" alt="" />
+                <img src="img/board-18/armi.jpg" alt="" />
                 <h7>Armghan Ahmad</h7>
                 <h8>Marketing Chair</h8>
               </a>
@@ -98,14 +186,14 @@
             <!-- finance gen board -->
             <li class="hex finance">
               <a class="hexIn" href="#">
-                <img src="img/board-18/grace.png" alt="" />
+                <img src="img/board-18/grace.jpg" alt="" />
                 <h7>Grace Lee</h7>
                 <h8>Finance</h8>
               </a>
             </li>
             <li class="hex finance">
               <a class="hexIn" href="#">
-                <img src="img/board-18/michelle.png" alt="" />
+                <img src="img/board-18/michelle.jpg" alt="" />
                 <h7>Michelle Lu</h7>
                 <h8>Finance</h8>
               </a>
@@ -113,14 +201,14 @@
             <!-- programming gen board -->
             <li class="hex programming">
               <a class="hexIn" href="#">
-                <img src="img/board-18/cheryl.png" alt="" />
+                <img src="img/board-18/cheryl.jpg" alt="" />
                 <h7>Cheryl Li</h7>
                 <h8>Programming</h8>
               </a>
             </li>
             <li class="hex programming">
               <a class="hexIn" href="#">
-                <img src="img/board-18/adel.png" alt="" />
+                <img src="img/board-18/adel.jpg" alt="" />
                 <h7>Adel Wu</h7>
                 <h8>Programming</h8>
               </a>
@@ -155,15 +243,15 @@
             </li>
             <li class="hex programming">
               <a class="hexIn" href="#">
-                <img src="img/board-18/sarah.jpg" alt="" />
-                <h7>Sarah Kim</h7>
+                <img src="img/board-18/margaret.jpg" alt="" />
+                <h7>Margaret Zhang</h7>
                 <h8>Programming</h8>
               </a>
             </li>
             <li class="hex programming">
               <a class="hexIn" href="#">
-                <img src="img/board-18/margaret.jpg" alt="" />
-                <h7>Margaret Zhang</h7>
+                <img src="img/board-18/sarah.jpg" alt="" />
+                <h7>Sarah Kim</h7>
                 <h8>Programming</h8>
               </a>
             </li>
@@ -177,14 +265,14 @@
             </li>
             <li class="hex marketing">
               <a class="hexIn" href="#">
-                <img src="img/board-18/wenting.png" alt="" />
+                <img src="img/board-18/wenting.jpg" alt="" />
                 <h7>Wenting Sun</h7>
                 <h8>Marketing</h8>
               </a>
             </li>
             <li class="hex marketing">
               <a class="hexIn" href="#">
-                <img src="img/board-18/jenna.png" alt="" />
+                <img src="img/board-18/jenna.jpg" alt="" />
                 <h7>Jenna Wang</h7>
                 <h8>Marketing</h8>
               </a>
@@ -198,7 +286,7 @@
             </li>
             <li class="hex marketing">
               <a class="hexIn" href="#">
-                <img src="img/board-18/trinh.png" alt="" />
+                <img src="img/board-18/trinh.jpg" alt="" />
                 <h7>Trinh Nguyen</h7>
                 <h8>Marketing</h8>
               </a>
