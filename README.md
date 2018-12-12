@@ -4,22 +4,22 @@ New website for Asian Pacific American Heritage Week, 2018
 ---
 First-priority features:   
 
-- [ ] Introduction to APAHW
-- [ ] APAHW 2018 schedule
+- [x] Introduction to APAHW
+- [x] APAHW 2018 schedule
 - [ ] APAHW photos
-- [ ] Board photos
+- [x] Board photos
 - [ ] Board bios
 - [ ] APAHW thoughts
 - [ ] Historical APAHW
-- [ ] Contact information
-- [ ] Section for volunteers
+- [x] Contact information
+- [x] Section for volunteers
 
 Nice to have:
 - [ ] Sidebar
 - [ ] Scrolling navigation
 - [ ] Highlighted navigation
 - [ ] Blog style section of website
-- [ ] Social media links
+- [x] Social media links
 - [ ] Data visualizations
 
 ---
