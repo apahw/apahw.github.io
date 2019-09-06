@@ -140,8 +140,8 @@ hr {
   margin-top: 1rem;
   padding-top: 50px;
   padding-bottom: 15px;
-  /* here */
   /* background: linear-gradient(to right, #ce8d7a 25%, #f0cbbb 50%, #dcaf52 75%); */
+  background-image: url('./../img/apahw2019cover.jpg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
